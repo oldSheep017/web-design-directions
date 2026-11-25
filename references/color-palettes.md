@@ -1,33 +1,33 @@
-# 配色选择参考
+# Palette reference
 
-先保留已确定的品牌色和状态语义。再从实际内容找颜色线索，例如主图的色温、实物表面或现有产品界面。长文先考虑整页阅读，后台先考虑状态辨识，沉浸式画面先考虑控件在画面前是否清楚。把这些判断说成用户能理解的选择理由。
+Preserve established brand colors and the meanings assigned to status colors. Look for color cues in the actual content, such as the temperature of a lead photograph, the finish of a physical object, or an existing product interface. For long-form reading, prioritize comfort across the page. In a back-office tool, prioritize easy-to-distinguish states. In an immersive scene, check that controls remain clear over the image. Explain color choices through these practical effects.
 
-## 可借用的配色起点
+## Starting palettes
 
-用下表找适合页面的色彩关系，再按品牌和素材调整。颜色的用途写在提案里。底色占主要面积，强调色用在关键动作或少量需要辨识的位置。需要额外区分工具栏、弹窗或控件区域时，再增加一个表面色。
+Use these combinations as starting points and adapt them to the brand and assets. State where each color goes in the proposal. Let the background cover most of the page and reserve the accent for key actions or a few important details. Add a surface color when a toolbar, dialog, or control area needs its own visual boundary.
 
-| 方向 | 底色 | 正文 | 强调色 | 适用条件与取舍 |
+| Direction | Background | Body text | Accent | Where it fits and what to consider |
 | --- | --- | --- | --- | --- |
-| 纸页与墨蓝 | 纸白 `#F8F5EC` | 墨黑 `#232521` | 墨蓝 `#215384` | 长文、专栏和档案。暖底适合纸感，墨蓝便于从段落中辨认链接。展示需准确还原白底的作品时，可改用中性底色。 |
-| 蓝灰工作台 | 浅蓝灰 `#EFF2F6` | 深蓝灰 `#182233` | 钴蓝 `#204EBA` | 表格、筛选和高频录入。大面积低饱和底色让主要操作醒目，业务状态另配标签或图标。 |
-| 深海与灯光 | 深蓝黑 `#101A26` | 雾白 `#EAF0F4` | 暖金 `#F0B86A` | 夜景、音频和放映页。暗底衔接画面，暖金适合播放或选中状态。控件叠在亮图上时，用独立底板保持可读。 |
-| 沙岩与松绿 | 沙白 `#F4E9D8` | 近黑棕 `#28251F` | 松绿 `#2C5C44` | 自然、户外和有实物质感的内容。适合暖光和偏自然的素材，遇到偏冷的产品摄影时可从素材重新取底色。 |
-| 冷白与洋红 | 冷白 `#F4F5F8` | 炭黑 `#24242C` | 深洋红 `#921D53` | 展览、音乐活动和作品集。少量强色适合日期、票务或作品索引。画面本身已很鲜艳时，缩小强调色面积。 |
+| Paper and blue ink | Paper white `#F8F5EC` | Ink black `#232521` | Ink blue `#215384` | Long articles, columns, and archives. The warm ground evokes paper, and blue makes links easy to pick out in paragraphs. Use a neutral ground when the work needs to be shown against accurate whites. |
+| Blue-gray workbench | Pale blue-gray `#EFF2F6` | Dark blue-gray `#182233` | Cobalt blue `#204EBA` | Tables, filters, and frequent data entry. The low-saturation ground makes primary actions stand out. Pair workflow states with labels or icons. |
+| Deep sea and lamplight | Blue-black `#101A26` | Mist white `#EAF0F4` | Warm gold `#F0B86A` | Night scenes, audio, and screenings. The dark ground blends into the imagery, and gold suits play controls or selected states. Give controls their own surface over bright imagery. |
+| Sandstone and pine | Sand white `#F4E9D8` | Near-black brown `#28251F` | Pine green `#2C5C44` | Nature, outdoor subjects, and physical materials. Works with warm light and earthy imagery. With cooler product photography, sample the ground color from the materials instead. |
+| Cool white and magenta | Cool white `#F4F5F8` | Charcoal `#24242C` | Deep magenta `#921D53` | Exhibitions, music events, and portfolios. A little saturated color suits dates, ticketing, or a project index. Reduce the accent area when the imagery already has strong color. |
 
-## 有材质感的搭配
+## Material-inspired combinations
 
-以下色值是网页提案用的示例。先决定哪种颜色负责整页的氛围，再决定哪里需要吸引视线。面积建议用于帮助想象布局，可以随素材调整。
+These hex values are examples for web design proposals. Decide which color sets the page's mood and what should draw attention. Adapt the suggested proportions to the actual assets.
 
-| 方向 | 底色与正文 | 辅色与强调色 | 怎么用 |
+| Direction | Background and text | Supporting and accent colors | How to use it |
 | --- | --- | --- | --- |
-| 爱马仕橙灵感 · 马具皮革 | 象牙白 `#FAF4E9`、深咖 `#2B211B` | 皮革橙 `#EB6D27`、焦橙 `#9B3B12` | 用象牙白做大面，皮革橙集中在一个主按钮或小面积色块。橙底按钮配深咖字，象牙底上的文字链接用焦橙。适合有皮革、木料或暖光摄影的产品页。 |
-| 莫兰迪蓝 · 雾面陶器 | 雾白 `#F2F4F3`、墨蓝灰 `#252D36` | 灰蓝 `#9EAFBF`、深钢蓝 `#3E546B` | 让灰蓝占一个章节或侧栏，搭配墨蓝灰字。深钢蓝给选中项和链接。适合建筑、家居与阅读页，能承接偏冷的照片。 |
-| 酒红与旧铜 · 展厅灯光 | 暗酒红 `#291C25`、暖白 `#F4EBDF` | 烟紫 `#3D2D38`、旧铜 `#CFA77B` | 暗酒红铺底，烟紫区分播放条或作品信息区，旧铜点在播放键、页码或少量重点文字上。适合剧场、摄影和音频作品。 |
+| Hermès-inspired orange and saddle leather | Ivory `#FAF4E9`, espresso `#2B211B` | Leather orange `#EB6D27`, burnt orange `#9B3B12` | Use ivory across large areas and concentrate leather orange in one primary button or a small color block. Use espresso text on an orange button and burnt orange for text links on ivory. Suits product pages with leather, wood, or warm-lit photography. |
+| Morandi blue and matte ceramics | Mist white `#F2F4F3`, blue-gray ink `#252D36` | Dusty blue `#9EAFBF`, deep steel blue `#3E546B` | Give dusty blue a section or sidebar, with blue-gray ink for text. Use deep steel blue for selected items and links. Suits architecture, interiors, and reading pages with cooler photography. |
+| Burgundy and aged copper | Deep burgundy `#291C25`, warm white `#F4EBDF` | Smoky plum `#3D2D38`, aged copper `#CFA77B` | Use burgundy as the ground and plum to define a player bar or project details. Use copper for a play control, page number, or occasional emphasis. Suits theater, photography, and audio projects. |
 
-用户同时喜欢橙和灰蓝时，可以沿用「雾面陶器」的雾白与灰蓝，让皮革橙只落在主操作上。提案要写清哪些色铺大面、哪一个元素用强调色，并保留控件文字所需的对比度。
+If the user likes both orange and dusty blue, combine the mist white and dusty blue of the ceramic palette and reserve leather orange for the primary action. Explain which colors cover large areas and which element gets the accent. Check the contrast of the text on that control.
 
-## 提案和验收
+## Propose and verify
 
-- 用一行说明色名、色值和角色，再讲它怎样服务当前页面。示例：“深蓝黑 `#101A26` 铺底，雾白 `#EAF0F4` 做正文，暖金 `#F0B86A` 给播放键和选中场景，夜景里一眼能找到操作。”
-- 比较时尽量改变一个用户感受得到的维度，例如浅底还是深底、低饱和还是强对比、突出作品还是突出操作。品牌固定时，从底色明暗、强调面积或色彩落点找选择。用文字说明，和主流程的提案格式一致。
-- 实现时用实际相邻的颜色检查正文、按钮文字、焦点和状态的可读性。强调色用作按钮底时，再核对按钮文字颜色。状态要有文字、图标或形状辅助辨认，图片上的文字还要检查实际裁切及亮暗变化。
+- Give each color's name, hex value, and role in one line, then explain how the combination serves the page. For example, use blue-black `#101A26` for the ground, mist white `#EAF0F4` for text, and warm gold `#F0B86A` for play and selected scenes so the controls are easy to find against a night scene.
+- Compare options along a difference visitors can feel, such as light versus dark, muted versus high-contrast, or whether the work or the controls stand out first. With fixed brand colors, vary background lightness, the area covered by the accent, or where it appears. Keep comparisons in the skill's text proposal format.
+- Check readability against the actual adjacent colors for body text, button labels, focus indicators, and states. Recheck label contrast when a button uses the accent as its background. Reinforce states with text, an icon, or a change in shape. Check how the actual crop and changes in brightness affect text placed over images.

@@ -1,20 +1,20 @@
-# 设计语言参考
+# Design languages reference
 
-从页面最重要的内容或操作出发，先找几种合适的组织方式，再决定哪种值得实现。下面的方向是构思起点，可以参考页面题材之外的对象，例如工具面板、导览牌或杂志。每次用当前页面的真实内容重做判断。
+Start with the page's main content or action, explore a few ways to organize it, and choose a direction that suits the task. These examples are starting points. Look beyond the immediate subject for ideas from objects like control panels, wayfinding signs, and magazines, then apply what fits the real content.
 
-| 方向 | 字体、边界和控件怎样配合 | 适用场景与取舍 |
+| Direction | How type, boundaries, and controls work together | Where it fits and what to consider |
 | --- | --- | --- |
-| 表达性界面，参考 Material 3 Expressive | 用字号和形状对比凸显主要操作，用表面色把相关控件收在一起。主按钮的尺寸和按压反馈更明确，次要操作收小。 | 适合有明显主操作的工具或应用。高密度区域保留紧凑控件，短动效只在操作时发生，并照顾减少动态效果的设置。 |
-| 有框的仪表台 | 用外框圈定可操作区域，内部分隔线标明控制组。无衬线标题用常规大小，数字对齐，按钮和滑块呈现清楚的边界。 | 适合播放器、设备控制和桌面后台。框只画在需要区分操作范围的地方，内部信息可用对齐和留白区分。 |
-| 现代平面栅格 | 用不等宽但对齐的列组织内容。无衬线字的字重、列宽和行距形成层级，有实际分隔作用时用直线。链接和按钮沿列边对齐。 | 适合内容索引、作品集和资料库。以连续阅读为主的长文可以适当收窄主列。 |
-| 场刊与展墙 | 把一件作品、一张照片或一个具体事件放在视觉中心，说明和操作紧贴它。字形可随题材变化，边界像画框、图注区或节目条。 | 适合有真实视觉素材或明确节目的页面。素材不足时考虑改用文字栅格或表格组织内容。 |
-| 路线与导视 | 用路线、时段或操作顺序组织页面。短标题和可辨识的编号帮助定位，实色条或清晰边框标记当前步骤，按钮跟着实际下一步走。 | 适合展览导览、报名流程或分阶段任务。用户需要自由扫读时，也给直接跳转的入口。 |
-| 文档式工作区 | 用适中的字号和稳定的行宽支持阅读，相关说明与操作用边框或交替表面分区。正文可以用衬线或无衬线，按文字量和阅读环境决定。 | 适合说明、审批、编辑或长文。关键操作要能从正文中看出，方便用户在阅读后接着处理。 |
+| Expressive interface, inspired by Material 3 Expressive | Use contrast in scale and shape to highlight the main action, and group related controls by surface color. Give the primary button a prominent size and clear press feedback. Keep secondary actions smaller. | Suits tools and apps with a clear main action. Use compact controls in dense areas, reserve brief motion for interactions, and respect reduced-motion preferences. |
+| Framed control panel | Use an outer frame to define the controls and inner dividers to identify control groups. Use regular-sized sans-serif headings, align numbers, and give buttons and sliders defined edges. | Suits media players, device controls, and desktop operations tools. Use frames where an interaction area needs a boundary. Use alignment and spacing for information inside it. |
+| Modernist grid | Arrange content in aligned columns of unequal width. Use sans-serif weights, column width, and line spacing for hierarchy. Use rules where they help separate information, and align links and buttons to column edges. | Suits indexes, portfolios, and resource collections. Narrow the main column when the task is sustained reading. |
+| Program and gallery wall | Put a work, a photograph, or a specific event at the center of the composition, with its description and actions nearby. Choose letterforms that fit the subject. Use boundaries that evoke frames, caption areas, or program strips. | Suits pages with strong visual material or a defined program. If assets are scarce, consider a text grid or table. |
+| Routes and wayfinding | Let a route, timetable, or sequence of actions organize the page. Short headings and recognizable numbering help people locate themselves. Use a solid color strip or a clear border to mark the current step, and place controls near the next action. | Suits exhibition guides, registration flows, and staged tasks. Include direct navigation when people need to scan or jump between sections. |
+| Document workspace | Use moderate type sizes and consistent line lengths. Group related instructions and actions with borders or alternating surfaces. Choose serif or sans-serif body text based on the amount of text and the reading environment. | Suits instructions, approvals, editing, and long-form work. Give the main action enough emphasis that readers can find it when they finish a section. |
 
-## 控制变化的范围
+## Vary the direction and keep the result coherent
 
-- 发散时可以试有框、无框、用表面色分组等不同做法。边框、宋体、无衬线字和大标题都按用途选。例如页面的主任务是扫一张表时，标题可以只占一行常规字号，把面积留给表格。
-- 比较同一个关键操作在各方案里的体验。比如切换雨声可以是大形状选择器、带物理分区的控制台，或以场景列表为主的目录。看方案差异是否在配色以外也成立。
-- 随机性放在提案方向的选择上。先筛掉影响使用或与品牌冲突的选项，再在同样合适的方向里求变化。方向选定后，为同类控件和内容组沿用一套字体层级、分组边界、形状与状态反馈，主操作按需要突出。
+- Explore framed, borderless, and surface-based grouping. Choose borders, Song-style Chinese type, sans-serif type, and large headings according to what the page needs. When the main task is to scan a table, a single line of regular-sized heading text can leave more room for the table.
+- Compare the same key action across directions. For example, switching rain sounds could use expressive shape selectors, a framed control panel with clear zones, or a list-led scene directory. Check that the difference is still apparent without color.
+- Use randomness when selecting among suitable proposal directions. First rule out options that hinder the task or clash with the brand. Once a direction is chosen, use a consistent hierarchy, grouping, shape, and state feedback for similar controls and content groups. Give the main action the emphasis it needs.
 
-Material 的参考重点是用形状、色彩、比例和反馈建立主次，再根据当前题材做原创界面。[Google Design 对 Material 3 Expressive 的说明](https://design.google/library/expressive-material-design-google-research)
+Use Material as a reference for how shape, color, proportion, and feedback establish hierarchy, then apply those ideas to an original interface for the current subject. [Google Design on Material 3 Expressive](https://design.google/library/expressive-material-design-google-research)

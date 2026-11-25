@@ -1,35 +1,35 @@
 # Web Design Directions
 
-做网页前，智能体先在聊天里用简短文字给出三套排版与视觉方案。每套都写清访客第一眼看到什么、下一步可以做什么，以及配色、字体、画面和控件怎么设计。你可以整套选，也可以组合不同方案的布局和风格。选定后再开始做页面。
+Before building a webpage, the agent proposes three layout and style directions in concise text. Each explains what visitors see first, what they can do next, and how color, typography, imagery, and controls support the design. Choose an entire direction or combine the layout from one option with the style from another. Implementation begins after you choose.
 
-适用于桌面网页、手机网页和响应式网站。设计方向从主要使用设备出发。
+Works for desktop, mobile, and responsive websites. Each direction starts with the device that matters most for the task.
 
-也可以保留现有布局，只比较几组配色。提案会写出色值、用法和各自适合的场景。[配色选择参考](references/color-palettes.md)
+You can also keep an existing layout and compare palettes on their own. Proposals explain which colors to use, where to use them, and when each palette fits. [Palette reference](references/color-palettes.md)
 
-想让不同项目的页面更有区别时，可以比较有框的仪表台、表达性界面、平面栅格等组织方式。每案写清字体、分组边界和控件如何配合，选定后用一套规则实现。[设计语言参考](references/design-languages.md)
+To give different projects distinct identities, compare organizing ideas such as framed control panels, expressive interfaces, and modernist grids. Each option explains how typography, group boundaries, and controls work together. The selected direction carries through the entire page. [Design languages reference](references/design-languages.md)
 
-## 安装到 Codex
+## Install in Codex
 
-在要使用这个 Skill 的项目目录运行以下命令。
+Run this command from the project where you want to use the skill.
 
 ```sh
 npx skills add oldSheep017/web-design-directions -a codex
 ```
 
-如果已下载本仓库，可以从本地安装。将路径替换为解压后含有 `SKILL.md` 的目录。
+To install from a downloaded copy, replace the example path with the directory containing `SKILL.md`.
 
 ```sh
 npx skills add /path/to/web-design-directions -a codex
 ```
 
-默认安装到当前项目。希望在自己的所有项目中使用时，可在命令末尾加 `-g`。[安装工具与运行要求](https://github.com/vercel-labs/skills#install-a-skill)
+The command installs the skill in the current project by default. Add `-g` to make it available across your projects. [Installer documentation and requirements](https://github.com/vercel-labs/skills#install-a-skill)
 
-## 试一次
+## Try it
 
-在 Codex 中输入：
+In Codex, try either of these prompts.
 
-> 用 $web-design-directions 帮我设计个人博客首页。我写项目复盘，也发日常随笔。很多读者用手机访问。
+> Use $web-design-directions to design my blog homepage. I write project retrospectives and personal essays. Many of my readers visit on mobile.
 
-> 用 $web-design-directions 帮我设计桌面端的快递代收后台。店员主要用电脑录入包裹，峰值时要连续处理多条记录。
+> Use $web-design-directions to design a desktop parcel intake tool. Staff mainly use computers to log incoming packages and often enter several records in a row during busy periods.
 
-可以直接选一个方向，也可以用自己的话调整，例如“我喜欢打开就能读正文的方案，但希望老读者能从首屏找到文章索引”。[查看完整技能指令](SKILL.md)
+You can choose a direction as presented or adjust it in your own words. For example, ask to keep the design that opens directly into an article while making the article index easy to find from the first screen. [Read the full skill instructions](SKILL.md)

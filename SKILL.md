@@ -1,45 +1,45 @@
 ---
 name: web-design-directions
-description: 新建网页、整体改版或探索网页视觉风格时使用。根据访客目的和实际内容，用简短文字提出可比较的排版与视觉方案，逐案说明配色、字体、图像和控件设计，让用户选定后再实现。也适用于用户觉得页面模板化、希望试试其他方向的情况。局部修复和忠实还原定稿时沿用已有设计。
+description: Use when creating or redesigning a webpage, exploring its visual style, or looking for alternatives to a generic layout. Propose concise, comparable directions grounded in the page's purpose and content. Describe each direction's palette, typography, imagery, and controls, then let the user choose before implementation. Follow the existing design for local fixes or faithful implementation of an approved design.
 ---
 
-# 让用户看懂并选择网页设计方向
+# Help users choose a web design direction
 
-## 从用途找到构图
+## Start with the page's purpose
 
-读需求和可用的项目资料，用一句话说清谁会在什么场景下打开页面、最想看什么或做什么。找出能够承担首屏的真实内容，如作品细节、比赛日程、待处理记录或文章开头。记录各方案共用的约束，例如已有品牌、必要内容、主要操作和素材。用途不明确且会改变布局时，问一个具体问题，例如“访客更常来找一篇旧文章，还是从首页开始读新文章？”
+Read the brief and available project materials. Summarize in one sentence who will open the page, in what context, and what they most want to see or do. Identify the real content that could anchor the first screen, such as a detail from a portfolio piece, a match schedule, a work queue, or the opening of an article. Note constraints shared by all options, including the existing brand, required content, primary action, and available assets. If an unclear purpose would change the layout, ask a specific question. For example, ask whether visitors usually arrive to find an older post or to read the latest one.
 
-按需求和实际使用场景确定目标设备。桌面优先的项目先设计宽屏，关注多栏如何协作、哪些信息需要同时看见，以及鼠标和键盘的操作路径。手机优先的项目先设计窄屏，关注信息顺序和触屏操作。两端都面向用户时，说明布局如何随宽度调整。用户指定只做一端时，围绕该端提案和验收。
+Choose target devices based on the brief and how people will use the page. For desktop-first work, start at a wide viewport and consider how columns work together, what needs to stay visible at the same time, and how people use the mouse and keyboard. For mobile-first work, start at a narrow viewport and consider reading order and touch interactions. For both, explain how the layout adapts to width. If the user specifies a single device, propose and check the design for that device.
 
-## 提供真正不同的选择
+## Offer meaningfully different options
 
-默认提出三个方向，用户指定数量时按要求调整。各方案服务同一个主要任务，从首屏焦点、内容分组、后续区块顺序、浏览路径中选至少两项拉开差异。可以借用其他媒介的组织方式，例如报纸按主次导读、场刊按时间找演出；只有能解释这种安排怎样帮到访客时才采用。每次从当前题材重新构思，至少让一个真实细节决定构图。试着替换成同类项目，如果只换名字就说得通，回到真实内容继续找。
+Offer three directions by default, or the number the user requests. Give every option the same primary task while varying at least two of these aspects: the first screen's focus, how content is grouped, the order of later sections, and the path through the page. Borrow from other media when the arrangement serves visitors, as when newspapers lead with the most important story or a program makes performances easy to find by time. Let at least one real detail from the current subject shape the composition. Imagine swapping in a similar project. If changing the name is all it takes, look for a more specific idea in the content.
 
-完整设计提案时读 [设计语言参考](references/design-languages.md)。先从不同的组织方式探索，再按内容与品牌筛选。例如可以从有边框的模块、连续的阅读栅格或靠形状与表面分组的界面出发。每案用一句话交代这套规则如何同时作用于字体、分组边界和主要控件，颜色服从这些决定。用户只要局部调整、只比较配色或已定设计语言时，按指定范围推进。
+For a full proposal, read the [design languages reference](references/design-languages.md). Explore different ways to organize the interface before filtering by content and brand. Options might begin with bordered modules, a continuous reading grid, or grouping through shape and surface color. In one sentence per option, explain how its organizing idea shapes the typography, group boundaries, and primary controls. Use color to reinforce those decisions. When the user asks for a local adjustment, wants to compare palettes only, or has already chosen a design language, follow that scope.
 
-提案阶段只在聊天里提供简短文字。这也适用于同时使用其他前端设计 Skill 的情况：可借用其方法构思，把绘图、线框、原型和 HTML/CSS 预览留到用户选定方向后。用户明确要求某种预览时，按指定范围提供。
+Keep proposals to concise text in chat, including when using other frontend design skills. Borrow their methods for thinking through the design. Leave illustrations, wireframes, prototypes, and HTML/CSS previews until the user chooses a direction. If the user explicitly requests a preview, provide it within the requested scope.
 
-用户只想比较配色时，读 [配色选择参考](references/color-palettes.md)，沿用现有布局和控件。用两到三组简短文字直接给出色名、HEX 色值、具体应用位置和一句取舍，按用户指定的数量调整。这种请求到此就可以让用户选，跳过下面的完整方案格式。以页面用途、品牌和真实素材选色。
+When the user only wants to compare palettes, read the [palette reference](references/color-palettes.md) and use the existing layout and controls. Offer two or three short text options, or the number requested. Give each color's name, hex value, and specific placement, along with one tradeoff for the palette. Choose colors that fit the purpose, brand, and actual assets. Then let the user choose. Skip the full proposal format below for this case.
 
-每案用一个易懂的名字和下面两条简短说明。各案使用同一批真实内容和相近篇幅，重点说清主要设备上会看到什么。用户只想探索视觉风格时，沿用现有布局来比较。
+Give each full proposal a plain-language name and two short descriptions. Use the same real content and comparable detail across options, emphasizing what visitors will see on the primary device. If the user wants to explore visual style only, compare styles on the existing layout.
 
-- **排版与取舍**。写清首屏焦点、控件位置、下一段内容，以及这样排对访客有什么好处或代价。对操作型页面，每案用一个真实操作说明布局如何影响工作，例如录入时能否同时核对队列，以及为此要让出多少列表空间。支持多端时，交代关键布局变化。
-- **视觉风格与设计元素**。先用一句话说清视觉灵感和想营造的感觉，再写出 **配色**（用一行列出底色、正文色、强调色的色名和 HEX 色值，说清强调色用在哪、为什么合适）、**字体**（标题和正文分别用什么字体或字形、大小或字重）、**画面**（现有图像怎么裁切、调色、加边框或留白，纯文字页则写清如何用留白与版面塑造视觉）、**控件与细节**（用页面真实的按钮、导航或选中状态举例，说明形状、材质或反馈）。动效会影响体验或辨识度时，说明触发时机、动什么和何时静止。标出缺少的素材和会影响实现的约束，如离线使用时的本地字体回退。
+- **Layout and tradeoff.** Describe the first screen's focus, control placement, what comes next, and the benefit or cost to visitors. For task-oriented pages, use one real action per option to show what the layout changes. For example, explain whether staff can check the queue while entering a record and how much list space that requires. For multi-device work, note the main layout changes.
+- **Visual style and design elements.** Summarize the visual reference and intended mood in one sentence. Give the background, body text, and accent colors with names and hex values in one line, plus where the accent goes and why. Describe the typeface or letterforms, size, or weight for headings and body text. Explain how imagery will be cropped, toned, framed, or spaced, or how spacing and layout shape a text-only page. Use a real button, navigation item, or selected state to show how controls will look and respond. When motion matters, describe what triggers it, what moves, and when it settles. Flag missing assets and constraints that affect implementation, such as local font fallbacks for offline use.
 
-完整方案需要配色灵感时，按需读配色参考。
+Read the palette reference as needed for color ideas in full proposals.
 
-提案前用文字自检。只读排版说明时，各案的内容顺序或视觉焦点应当有区别。暂时去掉风格名和配色后，完整方案仍应能从字号比例、边框或表面分组、控件轮廓和反馈里分辨。如果本次上下文能看到最近做过的页面，检查是否又重复了同一套首屏、标题比例和分组方式。多个方向同样适合时，优先探索最近少用的方向；用户要求增加随机性时，可以从这些合适的方向里抽一个。品牌固定的元素沿用已有规范，在有调整空间的部分拉开差异。
+Before sharing the options, compare their descriptions. The layouts should differ in content order or visual focus. With the names and colors removed, full proposals should still be distinguishable by type scale, borders or surface grouping, control shapes, and feedback. If recent pages are visible in the current context, check for a repeated opening layout, heading scale, or grouping pattern. When several directions fit equally well, favor one used less recently. If the user wants more randomness, choose from the suitable directions at random. Follow fixed brand standards and vary the parts that have room to change.
 
-## 让用户决定，再落地
+## Let the user choose before implementing
 
-用一句话推荐一个方向并给出与用途有关的理由。让用户可以整套选，也可以分别选排版与视觉风格。发完文字提案后等待选择，选定后再实现。用户已经选定方向、给出定稿或明确委托你决定时，按其决定推进。组合不同方案时，说清采用哪一案的布局和哪一案的视觉元素。用户要求再发散时，针对他们不满意的排版或风格重新提案。
+Recommend one option in a sentence and tie the reason to the page's purpose. Let the user choose a complete direction or select layout and visual style separately. Share the text proposals and wait for a choice before implementing. If the user has already chosen a direction, provided an approved design, or explicitly delegated the choice, proceed on that basis. When combining options, state which layout and visual elements you are using. If the user asks for more exploration, revisit the layout or style they found unsatisfactory.
 
-选定后，把用户点名的修改和保留项写成可核对的实现依据，落到具体元素或状态。例如“场景并排，橙色只用在播放键，选中场景沿用原边框”。同时记下适用的设备与已选的字体、画面处理等决定。若同时使用前端实现或设计系统 Skill，把这些决定传给它，沿用项目的品牌和组件。关键素材缺失且替代会改变方案体验时，把取舍交给用户。
+Turn the requested changes and elements to keep into specific, verifiable implementation details. For example, place the scenes side by side, reserve orange for the play button, and keep the original border on the selected scene. Record target devices and decisions about typography and imagery. Pass those choices to any frontend implementation or design-system skill you use, and follow the project's brand and components. If a missing asset would require a substitute that changes the experience, let the user decide the tradeoff.
 
-## 交付前检查设计有没有落地
+## Verify the design before delivery
 
-1. **动手前说清设计会改变什么。** 用一句话把真实内容或操作和一处设计决定连起来，例如“切换配色时原位重印同一张放映海报，所以海报是主画面，选色工具退到边上”。定好这个决定会改变首页的哪个焦点、比例或阅读顺序。用户要求保留布局时，在字体层级、画面处理或控件形态里找具体落点。局部调整只在指定范围内检查。
-2. **交付前看实际成品。** 有浏览器或截图工具时，打开页面看首屏和下一处关键区块，在目标设备宽度下逐项核对用户的选择，并试走主要操作。做一次替换测试：假设把标题、品牌名和配色换成另一家，构图或交互还有哪一处能看出是为当前内容做的？再核对同类控件和区域是否沿用选中方向的字体层级、边界与状态反馈。对于指定保留的布局，检查这次调整的元素有没有体现当前用途。
-3. **发现模板感就先修再交。** 如果预定的设计决定只出现在方案文字里，或成品换掉文字和颜色就能直接套给无关项目，先修改影响最大的一处构图、层级或控件，再重新查看。保留清楚好用的惯例和用户指定的约束。无法查看实际渲染时，说明视觉检查的限制。
+1. **Decide what the idea will change before building.** Connect a real piece of content or action to a design decision in one sentence. For example, switching palettes reprints the same film poster in place, so the poster dominates the page and the palette controls sit to the side. Identify the part of the opening view whose focus, proportions, or reading order will change. If the layout must stay, make the decision concrete in the type hierarchy, image treatment, or control shape. For local edits, review within the requested scope.
+2. **Inspect the rendered page before delivery.** With a browser or screenshot tool, look at the opening view and the next important section at the target widths. Check the user's choices one by one and try the main interaction. Imagine replacing the title, brand, and palette. Which part of the composition or interaction still shows that the page was designed for this content? Check that similar controls and regions use the chosen type hierarchy, boundaries, and state feedback. Where the layout was fixed, check that the edited elements support the current purpose.
+3. **Revise generic results before sharing them.** If the design idea only appears in the proposal, or the page could serve an unrelated project after swapping its text and colors, revise the composition, hierarchy, or control with the biggest impact, then inspect it again. Preserve familiar patterns that are clear and useful, along with the user's constraints. If rendered review is unavailable, explain that limitation.
 
-这轮检查发生在实现后。提案阶段继续用简短文字。
+Inspect the design after implementation. Keep the proposal stage concise and text-only by default.
