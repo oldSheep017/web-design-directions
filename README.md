@@ -4,10 +4,10 @@
 
 ## 安装到 Codex
 
-在要使用这个 Skill 的项目目录运行以下命令，将 `OWNER` 替换为托管本仓库的 GitHub 用户或组织名。
+在要使用这个 Skill 的项目目录运行以下命令。
 
 ```sh
-npx skills add OWNER/web-design-directions -a codex
+npx skills add oldSheep017/web-design-directions -a codex
 ```
 
 如果已下载本仓库，可以从本地安装。将路径替换为解压后含有 `SKILL.md` 的目录。
